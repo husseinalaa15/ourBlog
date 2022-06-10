@@ -1,0 +1,57 @@
+<!-- <div *ngIf="singlePostData">
+        {{singlePostData.userId}}
+</div> -->
+
+<div class="container-fluid singlePostContainer">
+    <div class="card singlePostCard" *ngIf="singlePostData">
+        <div class="row justify-content-center align-items-center text-center">
+            <div class="col-lg-6 col-md-12 h-md-auto">
+                <img src="/assets/Images/1.jpg" width="100%">
+
+            </div>
+            <div class="col-lg-6 col-md-12 h-md-auto">
+                <div class="details row justify-content-center align-items-center">
+                    <div class="col-lg-12">
+                        <h3>{{singlePostData.title}}</h3>
+                    </div>
+                    <div class="col-lg-12 px-5">
+                        <p>{{singlePostData.body}}</p>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <div class="userdetails ">
+                            <img class="mb-1" src="/assets/Images/user.jpeg" width="10%">
+                            <div>
+
+                                <h6 class="p-0 m-0"> {{userData.name}}</h6>
+                                <p class="p-0 m-0">{{userData.email}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <div class="icon">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F05454" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                              </svg>
+                              2000
+                        </div>
+                        <div class="icon">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00818A" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                            </svg>
+                            5000
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div #noPost >
+        
+    </div>
+
+</div>

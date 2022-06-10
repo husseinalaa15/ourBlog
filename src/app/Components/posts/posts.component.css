@@ -1,0 +1,46 @@
+.postsContainer{
+    background-color: rgb(23, 35, 50);
+}
+
+.poststitle{
+    color: white;
+    font-size: 50px;
+    border-bottom: 5px solid #df7861;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.post-link{
+    text-decoration: none !important;
+}
+.postCard{
+    background-color: #203651;
+}
+.postTitleCard{
+    color: white;
+}
+.postTitleCard .icon{
+    font-size: 13px;
+    text-align: right;
+}
+
+.paginationContainer ::ng-deep .ngx-pagination .current {
+    background: #347ab6;
+    
+  }
+  .paginationContainer ::ng-deep .ngx-pagination .pagination-previous.disabled{
+      color: rgb(55, 60, 90) ;
+      background-color: transparent;
+  }
+  .paginationContainer ::ng-deep .ngx-pagination .pagination-previous{
+      color:white;
+     
+  }
+  .paginationContainer ::ng-deep .ngx-pagination .pagination-previous a:hover , .paginationContainer ::ng-deep .ngx-pagination .pagination-next a:hover {
+    color:white;
+    background-color:#203651;
+  }
+  .paginationContainer ::ng-deep .ngx-pagination li a{
+      color: white;
+  }

@@ -1,0 +1,25 @@
+.aboutContainer{
+    height: 100vh;
+    background-color: rgb(23, 35, 50);
+    justify-content: center;
+    align-items: center;
+    display: flex
+    ;
+}
+.aboutContainer .row{
+    justify-content: center;
+    align-items: center;
+}
+.aboutUs{
+    background-color: #203651;
+    padding: 30px;
+    height: fit-content;
+}
+.poststitle{
+    color: white;
+    font-size: 50px;
+    border-bottom: 5px solid #df7861;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}

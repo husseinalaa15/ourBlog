@@ -1,0 +1,28 @@
+.homeComponent{
+    background-color: rgb(23, 35, 50);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.homeCard{
+    background-color: #203651;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(223, 120, 97, 0.2) 0px 7px 29px 0px;
+}
+.homeCard h1{
+    letter-spacing: 3px ;
+    font-size: 80px;
+}
+.homeCard .btn{
+    background-color: #DF7861;
+    color:white ;
+    margin:0 10px;
+    padding: 5px 20px;
+}
+.homeCard .btn:hover{
+    background-color: #fc5a36;
+}

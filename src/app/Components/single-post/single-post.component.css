@@ -1,0 +1,13 @@
+.singlePostContainer{
+    background-color: rgb(23, 35, 50);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.singlePostCard{
+    background-color: #203651;
+    color: white;
+    padding: 10px;
+    
+}
