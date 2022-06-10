@@ -18,10 +18,10 @@ export class PostsComponent implements OnInit,AfterViewInit {
 
 
 
-   arrayOfimages = ["/assets/Images/1.jpg","/assets/Images/2.jpg","/assets/Images/3.jpg","/assets/Images/4.jpg","/assets/Images/5.jpg",
-   "/assets/Images/6.jpg","/assets/Images/7.jpg","/assets/Images/8.jpg","assets/Images/9.jpg","/assets/Images/10.jpg",
-   "/assets/Images/11.jpg","/assets/Images/12.jpg","/assets/Images/13.jpg","/assets/Images/14.jpg","/assets/Images/15.jpg",
-   "/assets/Images/16.jpg","/assets/Images/17.jpg","/assets/Images/18.jpg","/assets/Images/19.jpg","/assets/Images/20.jpg"];
+   arrayOfimages = ["assets/Images/1.jpg","assets/Images/2.jpg","assets/Images/3.jpg","assets/Images/4.jpg","assets/Images/5.jpg",
+   "assets/Images/6.jpg","assets/Images/7.jpg","assets/Images/8.jpg","assets/Images/9.jpg","assets/Images/10.jpg",
+   "assets/Images/11.jpg","assets/Images/12.jpg","assets/Images/13.jpg","assets/Images/14.jpg","assets/Images/15.jpg",
+   "assets/Images/16.jpg","assets/Images/17.jpg","assets/Images/18.jpg","assets/Images/19.jpg","assets/Images/20.jpg"];
 
    imgCount = 0;
    totalLength:any;
